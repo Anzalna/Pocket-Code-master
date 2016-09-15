@@ -232,7 +232,7 @@ public class NewProjectDialogTest extends BaseActivityInstrumentationTestCase<Ma
 		solo.waitForActivity(StageActivity.class.getSimpleName(), 1000);
 		solo.sleep(5000);
 		solo.takeScreenshot();
-		solo.sleep(5000);
+		solo.sleep(5000);//hhhhh
 		solo.takeScreenshot();
 		solo.waitForActivity(solo.getCurrentActivity().toString());
 	}
